@@ -3,10 +3,10 @@ const nextConfig = {
     images: {
         unoptimized: true
     },
-    output: 'export', // Outputs a Single-Page Application (SPA).
-    distDir: './build', // Changes the build output directory to `./dist`.
-    assetPrefix: '/AlgorithmVisualizer',
-    basePath: '/AlgorithmVisualizer',
+    // Removed static export and GitHub Pages specific configs for Vercel deployment
+    
+    // Suppress hydration warnings caused by browser extensions
+    reactStrictMode: false,
 }
    
 export default nextConfig;

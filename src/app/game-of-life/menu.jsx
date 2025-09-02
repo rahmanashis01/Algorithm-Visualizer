@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 export default function Menu({ onStart, onStop, onClear }) {
     return (
-        <div className="w-64 bg-gray-100 p-4 space-y-6">
-        <h2 className="text-lg font-semibold">Settings</h2>
+        <div className="w-64 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 p-4 space-y-6">
+        <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Settings</h2>
         
             {/* <Button className="m-1" >Clear Path</Button> */}
             <Button className="m-1" onClick={onClear}>Clear Board</Button>

@@ -75,7 +75,7 @@ export default function GameOfLifePage() {
     }
 
     return (
-        <div className="flex flex-col h-screen">
+        <div className="flex flex-col h-screen bg-white dark:bg-gray-900">
 
             <Navbar title="Game of Life" />
 
@@ -86,7 +86,7 @@ export default function GameOfLifePage() {
                     onClear={handleClearBoard}
                 />
 
-                <div className="flex flex-1 flex-col items-center justify-center overflow-auto">
+                <div className="flex flex-1 flex-col items-center justify-center overflow-auto bg-gray-50 dark:bg-gray-800">
                     <div className="w-full h-full flex items-center justify-center" ref={gridRef}>
                         <Grid
                             grid={grid}

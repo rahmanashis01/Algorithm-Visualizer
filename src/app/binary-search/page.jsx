@@ -13,12 +13,9 @@ class BinarySearch extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="min-h-screen bg-white dark:bg-gray-900">
                 <Navbar title={"Binary Search"} />
-                <br />
-                <br />
-                <br />
-                <center>
+                <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-800 p-8">
                     {!this.state.isRunning &&
                         <EntryPoint
                             startGame={this.handleStartGame}
@@ -35,7 +32,7 @@ class BinarySearch extends Component {
                             onRestart={this.handleRestart}
                         />
                     }
-                </center>
+                </div>
             </div>
         );
     }

@@ -31,7 +31,7 @@ class Seive extends Component {
 
     render() {
         return (
-            <div className="flex flex-col h-screen">
+            <div className="flex flex-col h-screen bg-white dark:bg-gray-900">
                 <Navbar title="Sieve" />
                 <div className="flex flex-1 overflow-hidden">
 
@@ -43,7 +43,7 @@ class Seive extends Component {
                         isDisabled={this.state.isRunning}
                         setAlgo={this.setAlgo}
                     />
-                    <div className="flex flex-1 flex-col overflow-auto">
+                    <div className="flex flex-1 flex-col overflow-auto bg-gray-50 dark:bg-gray-800">
 
                         {this.state.algo === 0 &&
                             <Cells

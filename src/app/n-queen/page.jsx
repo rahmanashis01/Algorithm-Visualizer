@@ -24,7 +24,7 @@ class Queen extends Component {
 
     render() {
         return (
-            <div className="flex flex-col h-screen">
+            <div className="flex flex-col h-screen bg-white dark:bg-gray-900">
                 <Navbar title="8 Queen" />
                 <div className="flex flex-1 overflow-hidden">
 
@@ -36,7 +36,7 @@ class Queen extends Component {
                         onClear={this.handleClear}
                         onStop={this.handleStop}
                     />
-                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto">
+                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto bg-gray-50 dark:bg-gray-800">
                         <Cells
                             board={this.state.board}
                         />

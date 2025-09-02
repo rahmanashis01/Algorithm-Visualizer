@@ -123,7 +123,7 @@ class TuringMachine extends Component {
 
     render() {
         return (
-            <div className="flex flex-col h-screen">
+            <div className="flex flex-col h-screen bg-white dark:bg-gray-900">
                 <Navbar title="Turing Machine" />
                 <div className="flex flex-1 overflow-hidden">
 
@@ -135,9 +135,8 @@ class TuringMachine extends Component {
                     setInput2={this.setInput2}
                 />
 
-                <center>
-                    <br />
-                    <div className='bg-info'>
+                <div className="flex flex-1 flex-col items-center justify-center overflow-auto bg-gray-50 dark:bg-gray-800">
+                    <div className='p-4'>
                         {/*<h3>Turing Machine</h3>*/}
                         <Ribbon
                             strip={this.state.strip}
@@ -187,7 +186,7 @@ class TuringMachine extends Component {
                             {/*</textarea>*/}
                         </div>
                     </div>
-                </center>
+                </div>
                 </div>
             </div>
         );

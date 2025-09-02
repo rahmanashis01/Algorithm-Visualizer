@@ -1,5 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import "./animations.css";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,6 +26,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Script src="/animations.js" strategy="afterInteractive" />
       </body>
     </html>
   );

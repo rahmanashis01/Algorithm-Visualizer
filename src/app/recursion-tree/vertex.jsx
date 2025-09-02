@@ -14,6 +14,13 @@ class Vertex extends Component {
         document.getElementById('tanim'+this.props.id).beginElement();
     }
     render() {
+        // Theme-aware colors
+        const isDark = document.documentElement.classList.contains('dark');
+        const strokeColor = isDark ? '#e5e7eb' : '#374151'; // light gray for dark theme, dark gray for light theme
+        const fillColor = this.props.current 
+            ? '#06b6d4' // cyan for current node
+            : (isDark ? '#1f2937' : '#ffffff'); // dark background for dark theme, white for light theme
+        const textColor = isDark ? '#f9fafb' : '#111827'; // light text for dark theme, dark text for light theme
 
         return (
             <g>
@@ -22,7 +29,7 @@ class Vertex extends Component {
                     cy={this.props.pos.y}
                     r={6}
                     // ry={3}
-                    stroke="black" strokeWidth="0.5" fill={this.props.current?'cyan':'white'}
+                    stroke={strokeColor} strokeWidth="0.5" fill={fillColor}
                 >
                     <animate
                         id={'cxanim'+this.props.id}
@@ -54,7 +61,7 @@ class Vertex extends Component {
                     {/*/>*/}
                 </circle>
                 <text
-                    style={{font:'3px sans-serif'}}
+                    style={{font:'3px sans-serif', fill: textColor}}
                     x={this.props.pos.x}
                     y={this.props.pos.y-4}
                     textAnchor={'middle'}

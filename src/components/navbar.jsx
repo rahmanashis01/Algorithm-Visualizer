@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
-import { Github, Home } from 'lucide-react'
+import { Home } from 'lucide-react'
+import ThemeToggle from './theme-toggle'
 
 export default function Navbar(props) {
   return (
-    <nav className="bg-background shadow-sm py-1 px-6 flex justify-between items-center">
+    <nav className="nav-glass py-1 px-6 flex justify-between items-center">
       <Link href="/" className="text-xl font-bold">{props.title}</Link>
       <div className="flex items-center space-x-4">
         <Button variant="ghost" size="lg" asChild>
@@ -16,11 +17,7 @@ export default function Navbar(props) {
         <Button variant="ghost" size="lg" asChild>
           <Link href="/about">About</Link>
         </Button>
-        <Button size="icon" variant="ghost">
-          <Link href="https://github.com/TamimEhsan/AlgorithmVisualizer">
-            <Github className="h-5 w-5" />
-          </Link>
-        </Button>
+        <ThemeToggle />
       </div>
     </nav>
   )

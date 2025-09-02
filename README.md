@@ -4,9 +4,6 @@
 
 A better visualization of different algorithms made with React. 
 
-Visit : https://tamimehsan.github.io/AlgorithmVisualizer/
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=TamimEhsan.AlgorithmVisualizer)
 
 Explore more than 24 algorithms with step by step visualization simplifying the learning process and making it more engaging for a better understanding. 
 
@@ -63,8 +60,7 @@ I am not sure if anyone would like to contribute to this project or not. But any
 
 - Commit 16: Added Flip Move animation to inplace sorting components
 - Commit 20: Added Tree Structure
-- 13 Dec 2024: Release v2.0.0: Migrate the project from legacy project to next js with shadcn ui [#3](https://github.com/TamimEhsan/AlgorithmVisualizer/pull/3)
-
+- 1st sept : Release v2.0.0: Migrate the project from legacy project to next js with shadcn ui 
 ### Acknowledgement
 
 I took inspirations from the following sources for some of the segments.
@@ -87,4 +83,5 @@ This will start the app in `http://localhost:3000/AlgorithmVisualizer`
 - [University of San Francisco Site](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 
 - ​[algorithm-visualizer](https://github.com/algorithm-visualizer)
 - [National University of Singapore Site](https://visualgo.net/en)
+- [ Md. Tamimul Ehsan] (https://github.com/TamimEhsan)
 

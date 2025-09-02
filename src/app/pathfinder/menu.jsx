@@ -5,8 +5,8 @@ import { Component } from 'react';
 class Menu extends Component {
     render() {
         return (
-            <div className="w-64 bg-gray-100 p-4 space-y-6">
-            <h2 className="text-lg font-semibold">Settings</h2>
+            <div className="w-64 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 p-4 space-y-6">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Settings</h2>
             
                 <CustomSelect
                     title="Select Algorithm"

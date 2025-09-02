@@ -48,7 +48,7 @@ class Pathfinder extends Component {
 
     render() {
         return (
-            <div className="flex flex-col h-screen">
+            <div className="flex flex-col h-screen bg-white dark:bg-gray-900">
 
                 <Navbar title="Pathfinder" />
 
@@ -64,7 +64,7 @@ class Pathfinder extends Component {
                         onClearPath={this.handleClearPath}
                     />
                     <span style={{ margin: 2 }} />
-                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto">
+                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto bg-gray-50 dark:bg-gray-800">
                         <div className="w-full h-full flex items-center justify-center" ref={this.gridRef}>
                             <Grid
                                 grid={this.state.grid}

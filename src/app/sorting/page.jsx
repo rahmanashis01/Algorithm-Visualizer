@@ -30,7 +30,7 @@ class Sort extends Component {
 
     render() {
         return (
-            <div className="flex flex-col h-screen">
+            <div className="flex flex-col h-screen bg-white dark:bg-gray-900">
                 <Navbar title="Sorting Visualizer" />
 
                 <div className="flex flex-1 overflow-hidden">
@@ -45,7 +45,7 @@ class Sort extends Component {
                         onAlgoChanged2={this.handleAlgoChanged2}
                         onSpeedChange={this.handleSpeedChanged}
                     />
-                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto">
+                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto bg-gray-50 dark:bg-gray-800">
                         <Rects
                             speed={this.state.speed}
                             rects={this.state.rects}

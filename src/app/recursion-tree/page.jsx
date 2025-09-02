@@ -91,7 +91,7 @@ class Graph extends Component {
     }
     render() {
         return (
-            <div className="flex flex-col h-screen">
+            <div className="flex flex-col h-screen bg-white dark:bg-gray-900">
 
                 <Navbar title="Recursion Tree" />
                 <div className="flex flex-1 overflow-hidden">
@@ -103,7 +103,7 @@ class Graph extends Component {
                         onStart={this.addNumber}
                     />
 
-                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto">
+                    <div className="flex flex-1 flex-col items-center justify-center overflow-auto bg-gray-50 dark:bg-gray-800">
                         <div className="w-full h-full ">
                             <CanvasSvg
                                 vertices={this.state.vertices}

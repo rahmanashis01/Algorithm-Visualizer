@@ -56,17 +56,21 @@ class Edge extends Component {
         // return xx1+","+yy1+" "+x2+","+y2;
     }
     render() {
+        // Theme-aware colors
+        const isDark = document.documentElement.classList.contains('dark');
+        const strokeColor = isDark ? '#e5e7eb' : '#374151'; // light gray for dark theme, dark gray for light theme
+        
         return (
             <g>
                 <defs>
                     <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
                             markerWidth="4" markerHeight="4"
                             orient="auto-start-reverse">
-                        <path d="M 0 0 L 10 5 L 0 10 z" />
+                        <path d="M 0 0 L 10 5 L 0 10 z" fill={strokeColor} />
                     </marker>
                 </defs>
                 <line x2={this.getPolyPointsX()} y2={this.getPolyPointsY()} x1={this.props.pos.x1} y1={this.props.pos.y1}
-                      style={{stroke:'black', strokeWidth:'0.5'}}
+                      style={{stroke: strokeColor, strokeWidth:'0.5'}}
                       markerEnd="url(#arrow)"
                 >
                     <animate
