@@ -83,5 +83,5 @@ This will start the app in `http://localhost:3000/AlgorithmVisualizer`
 - [University of San Francisco Site](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 
 - ​[algorithm-visualizer](https://github.com/algorithm-visualizer)
 - [National University of Singapore Site](https://visualgo.net/en)
-- [ Md. Tamimul Ehsan] (https://github.com/TamimEhsan)
+- (https://github.com/TamimEhsan)
 
