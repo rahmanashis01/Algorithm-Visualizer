@@ -1,87 +1,151 @@
-
 ![banner](Assets/banner.png)
+
 # Algorithm Visualizer
 
-A better visualization of different algorithms made with React. 
+An interactive web application to **learn algorithms visually**, built with React.
 
+🌐 **Live Demo:** https://ashisrahman.dev/
 
-Explore more than 24 algorithms with step by step visualization simplifying the learning process and making it more engaging for a better understanding. 
+---
 
-So far there are 6 segments  
-- Pathfinder
-- Prime Numbers
-- Sorting Algorithms
-- N Queen
-- Convex Hull
-- Binary Search Game
-- Recursion Tree
-- Turing Machine
+## 🚀 Overview
 
-I have implemented a total of `24 algorithms` so far. And will try to add more later.  
+Algorithm Visualizer helps students understand complex algorithms through **step-by-step visualizations**.
 
-## Algorithms implemented 
+It is especially useful for learners who struggle with abstract concepts or lack access to paid educational tools.
 
-- Graph Search
-  - DFS
-  - BFS
-  - Dijkstra
-  - A star
-  - Recursive Maze Creation
-- Sorting
-  - Bubble sort
-  - Selection sort
-  - Insertion sort
-  - Heap sort
-  - Merge sort
-  - Quick sort
-- Sieve of Eratosthenes
-- Archimedes Spiral
-- N Queen Backtracking
-- Graham Scan for Convex Hull
-- Binary Search
-- Recursion
-  - Fibonacci Number
-  - Binomial Coefficient
-  - Derangement
-  - Fast Exponentiation
-  - Stirling Number of Second Kind
+Currently, the platform includes **24+ algorithms** across multiple categories, designed to make learning more intuitive and engaging.
 
-- Turing Machine
-  - Bitwise NOT
-  - Increment one
-  - 2's Compliment
+---
 
+## 📚 Features
 
+### 🔹 Segments
 
-### Contribution
-I am not sure if anyone would like to contribute to this project or not. But any kind of contributions are welcomes. Also if you like this please star this repo. It keeps me motivated.
+* Pathfinder
+* Prime Numbers
+* Sorting Algorithms
+* N-Queen
+* Convex Hull
+* Binary Search Game
+* Recursion Tree
+* Turing Machine
 
-### Special Features addition timeline
+---
 
-- Commit 16: Added Flip Move animation to inplace sorting components
-- Commit 20: Added Tree Structure
-- 1st sept : Release v2.0.0: Migrate the project from legacy project to next js with shadcn ui 
-### Acknowledgement
+## 🧠 Algorithms Implemented
 
-I took inspirations from the following sources for some of the segments.
-- `Pathfinder`: [The Projects That Got Me Into Google](https://youtu.be/n4t_-NjY_Sg)
-- `Archimedes Spiral for Primes`: [Why do prime numbers make these spirals? ](https://youtu.be/EK32jo7i5LQ)
-- `Recursion tree visualizer`: [Recursion Tree Visualizer](https://github.com/brpapa/recursion-tree-visualizer)
-- `Turing Machine`: [Tursi](https://github.com/schaetzc/tursi)
+### Graph Search
 
-### Run locally
+* DFS (Depth-First Search)
+* BFS (Breadth-First Search)
+* Dijkstra’s Algorithm
+* A* Search
+* Recursive Maze Generation
 
-Make sure you have node installed in your system. Then run
+### Sorting
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Heap Sort
+* Merge Sort
+* Quick Sort
+
+### Other Algorithms
+
+* Sieve of Eratosthenes
+* Archimedes Spiral (Prime Visualization)
+* N-Queen (Backtracking)
+* Graham Scan (Convex Hull)
+* Binary Search
+
+### Recursion
+
+* Fibonacci
+* Binomial Coefficient
+* Derangement
+* Fast Exponentiation
+* Stirling Numbers (2nd Kind)
+
+### Turing Machine
+
+* Bitwise NOT
+* Increment by One
+* Two’s Complement
+
+---
+
+## 📊 Impact
+
+Algorithm Visualizer is built to make algorithm learning accessible, especially for students who cannot afford paid tools or courses.
+
+* 🌍 ~3,200 monthly visitors (varies by month)
+* 🎓 Used by university students for Data Structures & Algorithms courses
+* 💸 Free alternative to paid visualization platforms
+* 🌐 Accessible globally, including strong usage from LMIC regions
+* 🚀 Continuously developed over 2+ years
+
+### Why this matters
+
+Many learners struggle with algorithms due to lack of interactive resources. Paid platforms are often not affordable for students in developing countries.
+
+This project aims to **bridge that gap** by providing a free, open-source, and visual learning experience.
+
+### Analytics
+
+We track usage through privacy-friendly analytics (e.g., Cloudflare). Below is an example of recent traffic:
+
+![Traffic Analytics](Assets/analytics-screenshot.png)
+
+---
+
+## 🛠️ Run Locally
+
+Make sure you have Node.js installed:
+
 ```bash
-npm i
+npm install
 npm run dev
 ```
-This will start the app in `http://localhost:3000/AlgorithmVisualizer`
 
-### Inspiration for next sections
+App will run at:
 
-- [University of San Francisco Site](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 
-- ​[algorithm-visualizer](https://github.com/algorithm-visualizer)
-- [National University of Singapore Site](https://visualgo.net/en)
-- (https://github.com/TamimEhsan)
+```
+http://localhost:3000/AlgorithmVisualizer
+```
 
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you’d like to improve visualizations, add new algorithms, or fix bugs, feel free to open a PR or issue.
+
+---
+
+## 🙌 Acknowledgements
+
+Inspired by:
+
+* https://youtu.be/n4t_-NjY_Sg
+* https://youtu.be/EK32jo7i5LQ
+* https://github.com/brpapa/recursion-tree-visualizer
+* https://github.com/schaetzc/tursi
+
+---
+
+## ⭐ Support
+
+If you find this project helpful, consider giving it a star ⭐
+It helps more learners discover it.
+
+---
+
+## 💡 Inspiration for Next Sections
+
+* https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+* https://github.com/algorithm-visualizer
+* https://visualgo.net/en
+* https://github.com/TamimEhsan
