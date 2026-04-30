@@ -94,9 +94,7 @@ This project aims to **bridge that gap** by providing a free, open-source, and v
 
 ### Analytics
 
-We track usage through privacy-friendly analytics (e.g., Cloudflare). Below is an example of recent traffic:
-
-![Traffic Analytics](Assets/analytics-screenshot.png)
+We track usage through privacy-friendly analytics ( Cloudflare).
 
 ---
 
